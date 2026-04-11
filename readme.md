@@ -1,11 +1,22 @@
-# sheer-gen
+# Sheer Gen
 
-local stable diffusion inpainting tool to swap clothes for sheer fabric.
+Local Stable Diffusion inpainting tool to swap clothes for sheer fabric.
 
-## setup
-1. `pip install -r requirements.txt`
-2. run backend: `uvicorn backend.app:app --reload`
-3. open `frontend/index.html` in your browser.
-4. upload a pic, draw over the clothes with your mouse to create the mask, and hit generate.
+![Demo](https://via.placeholder.com/512x256?text=Sheer+Gen+Demo)
 
-requires an nvidia gpu with at least 8gb vram.
+## Features
+- Upload any portrait/full-body image.
+- Draw a mask over clothing areas with your mouse.
+- Generate photorealistic sheer/translucent fabric replacements using AI.
+
+## System Requirements
+- NVIDIA GPU with at least **8GB VRAM**.
+- Python 3.8+
+- Node.js (optional, just for local serving of HTML)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/sheer-gen.git
+cd sheer-gen
